@@ -26,13 +26,13 @@ Text Domain: cardea-wp
 9. Responsive CSS
 -------------------------------------------------------------------*/
 
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* ===================================
     1. Global CSS
 ====================================== */
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 13px;
     line-height: 27px;
     font-weight: 400;
@@ -151,7 +151,7 @@ body pre {
 }
 
 .transparent-menu.page-template-onepage .header-holder {
-    background-color: transparent; 
+    background-color: rgba(28,61,115,0.8); 
 }
 
 .transparent-menu.page-template-onepage .header-holder.is-sticky {
